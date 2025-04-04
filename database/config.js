@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb+srv://mern_user:sATIsqL7RPhz3cWT@calendardb.ambmg.mongodb.net/paises_db', {
+        await mongoose.connect('link-de-la-db', {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
